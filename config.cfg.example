@@ -1,0 +1,29 @@
+[node]
+coin = http://******:******@localhost:20000
+waves = https://testnode1.wavesnodes.com
+
+[fee]
+coin = 0.02000000
+gateway = 0.01000000
+
+[gateway_address]
+owner = **********************************
+waves_public_key = ***********************************
+waves_private_key = ********************************************
+coin_public_key = **********************************
+
+[mongodb]
+host = localhost
+port = 27017
+database = ltc-gateway
+
+[server]
+host = localhost
+port = 5000
+
+[other]
+waves_chain = testnet
+
+# when using prod mode, file logging is enabled
+environment = debug
+
